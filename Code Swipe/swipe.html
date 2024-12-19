@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Swipe - Code Swipe</title>
+    <link rel="stylesheet" href="styles/swipe.css">
+    <script src="script/swipe.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Discover Developers</h1>
+    </header>
+    <main>
+        <div class="card-container">
+            <div class="profile-card" id="profile-card">
+                <h2 id="user-name">Jane Doe</h2>
+                <p><strong>Favourite Project:</strong> AI Chatbot</p>
+                <p><strong>Tech Stack:</strong> Python, TensorFlow, Flask</p>
+                <p><strong>Domain:</strong> Artificial Intelligence</p>
+                <pre class="code-snippet">
+# Sample Python Code
+def greet(name):
+    return f"Hello, {name}!"
+                </pre>
+            </div>
+        </div>
+        <div class="swipe-buttons">
+            <button id="left-swipe" class="swipe-btn left">Left Swipe</button>
+            <button id="right-swipe" class="swipe-btn right">Right Swipe</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Code Swipe. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

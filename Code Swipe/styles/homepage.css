@@ -1,0 +1,59 @@
+/* General styles for the homepage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2b2d42;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.front-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.front-section img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.faqs {
+    padding: 20px;
+    background-color: #edf2f4;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.get-started {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ef233c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2b2d42;
+    color: #fff;
+}
